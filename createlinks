@@ -23,28 +23,17 @@ use strict;
 use esmith::Build::CreateLinks qw(:all);
 
 #
-<<<<<<< HEAD
 # nethserver-nginx-update event
 #
 
 my $event = "nethserver-nginx-update";
 
 event_actions($event, qw(
-=======
-# nethserver-mrmarkuz-update event
-#
-
-event_actions("nethserver-mrmarkuz-update", qw(
->>>>>>> 7bf78cac8175808ec823b86d54ad51cd14829676
     initialize-default-databases        00
 ));
 
 event_templates($event, qw(
-<<<<<<< HEAD
     /etc/nginx/nginx.conf
-=======
-                 /etc/nginx/nginx.conf
->>>>>>> 7bf78cac8175808ec823b86d54ad51cd14829676
 ));
 
 event_services($event, qw(

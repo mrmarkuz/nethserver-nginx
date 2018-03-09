@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 Name: nethserver-nginx
-=======
-Name: nethserver-mrmarkuz
->>>>>>> 7bf78cac8175808ec823b86d54ad51cd14829676
 Version: 0.0.1
 Release: 1%{?dist}
 Summary: nginx for NethServer
@@ -10,10 +6,7 @@ License: GPL
 Source0: %{name}-%{version}.tar.gz
 BuildArch: noarch
 BuildRequires: nethserver-devtools
-<<<<<<< HEAD
 Requires: nginx
-=======
->>>>>>> 7bf78cac8175808ec823b86d54ad51cd14829676
 
 %description
 nginx for NethServer, fast scalable webserver with advanced reverse proxy functions
